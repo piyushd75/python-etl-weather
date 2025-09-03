@@ -1,0 +1,15 @@
+# API requests
+requests
+
+# Data transformation
+pandas
+
+# Database connection (choose one)
+psycopg2-binary    # PostgreSQL driver
+SQLAlchemy         # ORM/connection handling
+
+# Config handling
+PyYAML
+
+# Scheduling (optional for automation)
+schedule

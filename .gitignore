@@ -134,6 +134,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Config files (sensitive info)
+config/config.yaml
+
 # Environments
 .env
 .envrc
@@ -205,3 +208,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Jupyter notebooks checkpoints (if you experiment later)
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+Thumbs.db
