@@ -47,7 +47,7 @@ def transform_weather_data(data):
             "city": data.get("name"),
             "country": data.get("sys", {}).get("country"),
             "weather_main": data.get("weather", [{}])[0].get("main"),
-            "weather_description": data.get("weather", [{}])[0].get("description"),
+            "weather_desc": data.get("weather", [{}])[0].get("description"),
             "temp": data.get("main", {}).get("temp"),
             "feels_like": data.get("main", {}).get("feels_like"),
             "temp_min": data.get("main", {}).get("temp_min"),
